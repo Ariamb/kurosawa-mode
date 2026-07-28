@@ -30,7 +30,5 @@
       "flags": {}
     }
   ],
-  "url": "https://github.com/andrewschetera/kurosawa-mode",
-  "manifest": "https://github.com/andrewschetera/kurosawa-mode/releases/download/1.0.1/module.json",
-  "download": "https://github.com/andrewschetera/kurosawa-mode/releases/download/1.0.1/main.zip"
+  "url": "https://github.com/Ariamb/swade-turn-modifiers"
 }

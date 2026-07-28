@@ -3,7 +3,7 @@ Hooks.on('init', () => {
     game.settings.register('kurosawa-mode', 'enabled', {
         name: 'KUROSAWA.ENABLE.NAME',
         hint: 'KUROSAWA.ENABLE.HINT',
-        scope: 'client',
+        scope: 'world',
         config: true,
         type: Boolean,
         default: true,
@@ -19,7 +19,7 @@ Hooks.on('init', () => {
     game.settings.register('kurosawa-mode', 'blackAndWhite', {
         name: 'KUROSAWA.BLACKWHITE.NAME',
         hint: 'KUROSAWA.BLACKWHITE.HINT',
-        scope: 'client',
+        scope: 'world',
         config: true,
         type: Boolean,
         default: true,
@@ -50,7 +50,7 @@ Hooks.on('init', () => {
         scope: 'client',
         config: true,
         type: Number,
-        default: 1.5,
+        default: 1,
         onChange: value => {
             if (game.settings.get('kurosawa-mode', 'enabled')) {
                 applyFilters();
@@ -64,7 +64,7 @@ Hooks.on('init', () => {
         scope: 'client',
         config: true,
         type: Number,
-        default: 2,
+        default: 1,
         onChange: value => {
             if (game.settings.get('kurosawa-mode', 'enabled')) {
                 applyFilters();

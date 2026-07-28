@@ -1,3 +1,7 @@
+Kurosawa-mode fork with my custom default settings for brightness and contrast. Black and white mode managed by GM. All credit goes to the creator AndrewsChetera.
+
+Fork do Kurosawa-mode com minhas configurações customizadas padrões para brilho e contraste. Modo preto e branco gerenciado pelo mestre. Todo cŕedito vai para o criador AndrewsChetera.
+
 # Kurosawa Mode para Foundry VTT
 
 ![Alt text](kurosawa_mode.JPG)
